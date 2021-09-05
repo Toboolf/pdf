@@ -1,0 +1,13 @@
+plugins {
+    id 'groovy'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.codehaus.groovy', name: 'groovy', version: '3.0.8'
+    testImplementation 'org.codehaus.groovy:groovy-all:2.5.8'
+    testImplementation group: 'org.spockframework', name: 'spock-core', version: '2.0-groovy-3.0'
+}
